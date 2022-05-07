@@ -1,10 +1,12 @@
 package com.example.demo.student;
 
+import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
 // service layer
+@Service // this tells the code that this Service can be autowired
 public class StudentService {
 
     public List<Student> getStudents(){
