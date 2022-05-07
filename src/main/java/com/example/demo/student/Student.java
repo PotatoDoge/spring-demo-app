@@ -2,7 +2,9 @@ package com.example.demo.student;
 
 import java.time.LocalDate;
 
-// this file is the model (architecture related term)
+/**
+ this file is the model (architecture related term)
+  */
 public class Student {
 
 
